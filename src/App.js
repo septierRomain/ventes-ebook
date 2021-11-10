@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css';
 
 import Home from './Component/App/Home';
+import Assujetti from './Component/Assujetti';
+import NonAssujetti from './Component/NonAssujetti';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/Assujetti' element={<Assujetti />} />
+          <Route path='/non_assujetti' element={<NonAssujetti />} />
     </Routes>
     </BrowserRouter>
     </div>
