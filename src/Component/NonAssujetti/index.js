@@ -27,7 +27,7 @@ const NonAssujetti = () => {
 
         <div className="select_container">
           <Link to='/non_assujetti_France'><button className='select'>En France</button></Link>
-          <Link to='/non_assujetti_UE'><button className='select'>En Union Européenne</button></Link>
+          <Link to='/ue'><button className='select'>En Union Européenne</button></Link>
           <Link to='/non_assujetti_hors_UE'><button className='select'>Hors Union Européenne</button></Link>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useHistory } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 import Banner from '../App/Banner'
 
@@ -7,13 +7,13 @@ import GreyArrow from '../../Assets/grey arrow.svg'
 import Check from '../../Assets/check.svg'
 
 const UE = () => {
-  let history = useHistory()
+  let history = useNavigate()
   return ( 
 <div className='wrap'>
       <Banner />
       <div>
 
-        <button onClick={() =>history.goBack()} className="return">
+        <button onClick={() =>history(-1)} className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
         </button>

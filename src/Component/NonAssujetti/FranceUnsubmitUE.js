@@ -1,5 +1,5 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import Banner from '../App/Banner'
 import Redo from '../App/Redo'
@@ -10,13 +10,13 @@ import Arrow from '../../Assets/arrow.svg'
 import Vente from '../../Assets/categories/vente ebook.png'
 
 const FranceUnsubmitUE = () => {
-  let history = useHistory()
+  let history = useNavigate()
   return ( 
     <div className='wrap'>
       <Banner />
       <div>
 
-        <button onClick={() =>history.goBack()} className="return">
+        <button onClick={() =>history(-1)} className="return">
         <img src={GreyArrow} alt="fleche grise"/>
           Retour
         </button>
