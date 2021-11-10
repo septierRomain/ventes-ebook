@@ -23,8 +23,8 @@ const OSS = () => {
 
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
-        <p><img src={Check} alt="fleche grise"/>La preneur est établi en Union Européenne</p>
-        <p><img src={Check} alt="fleche grise"/>Vous faites plus de 10 000€ de CA vers l'Union Européenne</p>
+        <p><img src={Check} alt="fleche grise"/>Le preneur est établi dans l'Union Européenne (hors France)</p>
+        <p><img src={Check} alt="fleche grise"/>Vous réalisez plus de 10 000€ de CA vers l'Union Européenne</p>
       </div>
 
       <h4>La procédure :</h4>

@@ -28,7 +28,7 @@ function App() {
           {/* Routes pour les non assujetti */}
           <Route path='/non_assujetti' element={<NonAssujetti />} />
           <Route path='/non_assujetti_France' element={<FranceUnsubmit />} />
-          <Route path='/non_assujetti_UE' element={<FranceUnsubmitUE />} />
+          <Route path='/France_non_soumis_europe' element={<FranceUnsubmitUE />} />
           <Route path='/non_assujetti_hors_UE' element={<ForeignUnsubmit />} />
           <Route path='/OSS' element={<OSS />} />
           <Route path='/UE' element={<UE />} />

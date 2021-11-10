@@ -24,7 +24,7 @@ const FranceUnsubmitUE = () => {
       <div className="breadcrumbs">
         <p><img src={Check} alt="fleche grise"/>Le preneur n'est pas assujetti à la TVA</p>
         <p><img src={Check} alt="fleche grise"/>Le preneur est établi dans l'Union Européenne (hors France)</p>
-        <p><img src={Check} alt="fleche grise"/>Vous realisé moins de 10 000€ de chiffre d'affaires en Union Européenne</p>
+        <p><img src={Check} alt="fleche grise"/>Vous realisez moins de 10 000€ de chiffre d'affaires en Union Européenne</p>
       </div>
 
       <h4>La procédure :</h4>

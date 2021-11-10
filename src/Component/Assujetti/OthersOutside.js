@@ -27,7 +27,7 @@ const OthersOutside = () => {
 
       <hr />
       <div class='square'>
-        <p>En dehors des cas spécifiques mentionnés précédemment, les prestations de services réalisées au profit d'un assujetti à la TVA ne sont pas imposables en France lorsque le preneur assujetti est établi hors de France.<br />
+        <p>Les prestations de services réalisées au profit d'un assujetti à la TVA ne sont pas imposables en France lorsque le preneur assujetti est établi hors de France.<br />
         Le lieu d'imposition est alors le pays du preneur (Autre pays d'UE ou pays tiers).</p>
       </div>
       <hr />
