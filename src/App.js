@@ -3,8 +3,9 @@ import './App.css';
 
 import Home from './Component/App/Home';
 import Assujetti from './Component/Assujetti';
-import Others from './Component/Assujetti/Others';
-import OthersOutside from './Component/Assujetti/OthersOutside';
+import France from './Component/Assujetti/France';
+import SubmitHorsUE from './Component/Assujetti/submit_hors_UE';
+import SubmitUE from './Component/Assujetti/submit_UE';
 import NonAssujetti from './Component/NonAssujetti';
 import ForeignUnsubmit from './Component/NonAssujetti/ForeignUnsubmit';
 import FranceUnsubmit from './Component/NonAssujetti/FranceUnsubmit';
@@ -21,9 +22,10 @@ function App() {
           <Route path='/' element={<Home />} />
 
           {/* Routes pour les assujetti */}
-          <Route path='/Assujetti' element={<Assujetti />} />
-          <Route path='/France' element={<Others />} />
-          <Route path='/hors_France' element={<OthersOutside />} />
+          <Route path='/assujetti' element={<Assujetti />} />
+          <Route path='/France' element={<France />} />
+          <Route path='/assujetti_UE' element={<SubmitUE />} />
+          <Route path='/assujetti_hors_UE' element={<SubmitHorsUE />} />
 
           {/* Routes pour les non assujetti */}
           <Route path='/non_assujetti' element={<NonAssujetti />} />

@@ -9,7 +9,7 @@ import Check from '../../Assets/check.svg'
 import Arrow from '../../Assets/arrow.svg'
 import Vente from '../../Assets/categories/vente ebook.png'
 
-const Others = () => {
+const France = () => {
   let history = useNavigate()
   return ( 
     <div className='wrap'>
@@ -46,4 +46,4 @@ const Others = () => {
 );
 }
 
-export default Others;
+export default France;
