@@ -23,7 +23,7 @@ const UE = () => {
         <p><img src={Check} alt="fleche grise"/>Le preneur est établi dans l'Union Européenne (hors France)</p>
       </div>
 
-      <h4>Vous avez réalisé (ou vous prévoyez de réaliser) plus de 10 000 € de chiffre d'affaires sur l'année civile au titre de ventes d'Ebook effectués auprès de personnes non assujetties ou avez opté pour l'OSS ?</h4>
+      <h4>Vous avez réalisé (ou vous prévoyez de réaliser) plus de 10 000 € de chiffre d'affaires sur l'année civile au titre des ventes à distance intracommunautaires et des prestations de télécommunications ainsi que les services fournis par voie électronique effectués auprès de personnes non assujetties ou avez opté pour l'OSS ?</h4>
 
       <div className="select_container">
         <Link to='/OSS' ><button className='select'>Oui</button></Link>
