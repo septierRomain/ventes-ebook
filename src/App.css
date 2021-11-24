@@ -165,7 +165,13 @@ img {
   font-size: 12px;
   margin-left: 2.7em;
 }
-
+#subtitle {
+  font-weight: 400;
+  color: gray
+}
+.select:hover #subtitle {
+  color: #11ABEC;
+}
 
 /* MEDIA QUERIES */
 
